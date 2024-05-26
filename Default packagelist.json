@@ -1,0 +1,1403 @@
+﻿[
+  {
+    "repo": "chocolatey",
+    "id": "chocolatey",
+    "version": "^2.2.2",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "chocolatey",
+    "id": "chocolatey-compatibility.extension",
+    "version": "^1.0.0",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "chocolatey",
+    "id": "chocolatey-core.extension",
+    "version": "^1.4.0",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "chocolatey",
+    "id": "chocolatey-dotnetfx.extension",
+    "version": "^1.0.1",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "chocolatey",
+    "id": "chocolatey-visualstudio.extension",
+    "version": "^1.11.1",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "chocolatey",
+    "id": "chocolatey-windowsupdate.extension",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "version": "^1.0.5"
+  },
+  {
+    "repo": "chocolatey",
+    "id": "Cygwin",
+    "version": "disabled",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "chocolatey",
+    "id": "gping",
+    "version": "^1.16.1",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "chocolatey",
+    "id": "putty",
+    "version": "^0.80.0",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "chocolatey",
+    "id": "sysinternals",
+    "version": "^2024.2.13",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "chocolatey",
+    "id": "tor-browser",
+    "version": "^13.0.13",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver"
+    ]
+  },
+  {
+    "repo": "chocolatey",
+    "id": "voicemeeter-banana.install",
+    "version": "^2.0.6.200",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "chocolatey-disabled",
+    "version": "^1.3.4531.0",
+    "id": "ffdshow",
+    "friendlyName": "ffdshow x64",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^17.10.6.1",
+    "id": "{0E0F96AC-80DE-4400-A40C-429D63293651}",
+    "friendlyName": "Microsoft ODBC Driver 17 for SQL Server",
+    "groups": [
+      "windows laptop development workstation",
+      "windows desktop pc",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^2.2.250",
+    "id": "{6AC771CF-4EAA-41B7-A398-61A33701E076}",
+    "friendlyName": "ONVIF Device Manager v2.2.250",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^10.0.2000",
+    "id": "{6BF9DBD4-9864-4719-B2C6-9216EDF0402D}",
+    "friendlyName": "IIS 10.0 Express",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^2.0.14.0",
+    "id": "{B65C3390-98CD-4624-B0CC-F44416BDF6A3}",
+    "friendlyName": "Windows Subsystem for Linux",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^17.2.2555",
+    "id": "{E59BD84C-169B-4F3F-AC5D-85127CF67051}",
+    "friendlyName": "SketchUp 2017",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^10.17763.271.0",
+    "id": "4191KarhuKoti.Satellites_sd64qgh20x0ty",
+    "friendlyName": "Satellite Tracking",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^1.1.16.0",
+    "id": "42329RayAdams.SendtoBluetooth_pmmntx4gtncjm",
+    "friendlyName": "Send to Bluetooth",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^2.3.2",
+    "id": "459fc68c-eb53-59f8-8957-9913bc627af3",
+    "friendlyName": "Arduino IDE 2.3.2",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^0.0.2.0",
+    "id": "50240Saulawa.ElectroCalclite_51wz74f2xnh42",
+    "friendlyName": "ElectroCalc lite",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^1.1.7.0",
+    "id": "50240Saulawa.ElectronicsToolbox_51wz74f2xnh42",
+    "friendlyName": "Electronics Toolbox",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^1.7.1.0",
+    "id": "56645VirtualBreadboard.1814984D739D4_7hhkqpk6bbnd4",
+    "friendlyName": "Virtual Breadboard",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^4.45.999.0",
+    "id": "600CCC33.IPCENTCOM_npmv4c3p4dm00",
+    "friendlyName": "IP CENTCOM",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^5.7.4.0",
+    "id": "61621Aphalina.GrapholiteDiagramsPro_ryqmay9fdq1sp",
+    "friendlyName": "Grapholite Diagram",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^23.01",
+    "id": "7zip.7zip",
+    "friendlyName": "7-Zip",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^3.10.3056.0",
+    "id": "9PJPW5LDXLZ5",
+    "friendlyName": "Python 3.10",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "windows test and deployment server"
+    ],
+    "subrepo": "msstore"
+  },
+  {
+    "repo": "winget",
+    "version": "^3.4.1.0",
+    "id": "ATrillionGamesLtd.3DChessMaster_2cw2yhd8jafk0",
+    "friendlyName": "3D Chess Game",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^2.0.12",
+    "id": "AutoHotkey.AutoHotkey",
+    "friendlyName": "AutoHotkey",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "id": "BeyondCompare3_is1",
+    "friendlyName": "Beyond Compare 3.3.13",
+    "groups": [
+      "!ATMOSMAIN"
+    ],
+    "version": "^3.3.13.18981"
+  },
+  {
+    "repo": "winget",
+    "version": "^Unknown",
+    "id": "CHIRP",
+    "friendlyName": "CHIRP",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^2.2.1.6",
+    "id": "CircuitMaker {702936BB-F83E-4B9E-92A7-383EE21B9E56}",
+    "friendlyName": "CircuitMaker 2",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "id": "Clipchamp.Clipchamp_yxz26nhyzhsrt",
+    "friendlyName": "Microsoft Clipchamp",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "version": "^3.1.10020.0"
+  },
+  {
+    "repo": "winget",
+    "version": "^5.3.102",
+    "id": "Corsair.iCUE.5",
+    "friendlyName": "Corsair iCUE5 Software",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^6.5.2",
+    "id": "dev47apps.DroidCam",
+    "friendlyName": "DroidCam Client",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^2.56.0",
+    "id": "DominikReichl.KeePass",
+    "friendlyName": "KeePass",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^5.0.13",
+    "id": "dotPDN.PaintDotNet",
+    "friendlyName": "paint.net",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^7.20.0",
+    "id": "f4exb.sdrangel",
+    "friendlyName": "SDRangel",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^3.66.5",
+    "id": "FileZilla Client",
+    "friendlyName": "FileZilla 3.66.5",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^2.45.0",
+    "id": "Git.Git",
+    "friendlyName": "Git",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^2.4.5",
+    "id": "GnuPG.GnuPG",
+    "friendlyName": "GNU Privacy Guard",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^7.3.6.9796",
+    "id": "Google.EarthPro",
+    "friendlyName": "Google Earth Pro",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^7.0",
+    "id": "Gyan.FFmpeg",
+    "friendlyName": "FFmpeg",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^Unknown",
+    "id": "HaaliMkx",
+    "friendlyName": "Haali Media Splitter",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ]
+  },
+  {
+    "repo": "winget",
+    "id": "Hauppauge WinTV 8.5",
+    "friendlyName": "Hauppauge WinTV 8.5",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "version": "^v8.5.37352 (Premium)"
+  },
+  {
+    "repo": "winget",
+    "version": "^1.3.2",
+    "id": "Inkscape.Inkscape",
+    "friendlyName": "Inkscape",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^7.93",
+    "id": "Insecure.Nmap",
+    "friendlyName": "Nmap",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^1.2024.1.0",
+    "id": "kalilinux.kalilinux",
+    "friendlyName": "Kali Linux",
+    "groups": [
+      "windows desktop pc"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^24.02.1",
+    "id": "KDE.Kdenlive",
+    "friendlyName": "Kdenlive",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^8.0.2",
+    "id": "KiCad.KiCad",
+    "friendlyName": "KiCad",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^0.2.22",
+    "id": "LMStudio.LMStudio",
+    "friendlyName": "LM Studio",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^0.8.65",
+    "id": "MediaCoder",
+    "friendlyName": "MediaCoder 0.8.65",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^2.15",
+    "id": "MichaelTippach.ASIO4ALL",
+    "friendlyName": "ASIO4ALL",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^2.3.28307",
+    "id": "Microsoft Help Viewer 2.3",
+    "friendlyName": "Microsoft Help Viewer 2.3",
+    "groups": [
+      "windows laptop development workstation",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^Unknown",
+    "id": "Microsoft SQL Server SQL2022",
+    "friendlyName": "Microsoft SQL Server 2022 (64-bit)",
+    "groups": [
+      "windows laptop development workstation",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "id": "Microsoft.549981C3F5F10_8wekyb3d8bbwe",
+    "friendlyName": "Cortana",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "Version": "^4.2308.1005.0"
+  },
+  {
+    "repo": "winget",
+    "version": "^102.2403.21002.0",
+    "id": "Microsoft.6365217CE6EB4_8wekyb3d8bbwe",
+    "friendlyName": "Microsoft Defender",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^1.22.11132.0",
+    "id": "Microsoft.AppInstaller",
+    "friendlyName": "App Installer",
+    "groups": [],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "id": "Microsoft.DotNet.SDK.Preview",
+    "friendlyName": "Microsoft .NET SDK 9.0.100-preview.1.24101.2",
+    "groups": [
+      "windows laptop development workstation",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "windows test and deployment server"
+    ],
+    "version": "^9.0.100-preview.1.24101.2",
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^124.0.2478.80",
+    "id": "Microsoft.Edge",
+    "friendlyName": "Microsoft Edge",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "id": "Microsoft.Getstarted_8wekyb3d8bbwe",
+    "friendlyName": "Microsoft Tips",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "version": "^1.3.42522.0"
+  },
+  {
+    "repo": "winget",
+    "version": "^18.2311.1071.0",
+    "id": "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe",
+    "friendlyName": "Microsoft 365 (Office)",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^1.0.1148.0",
+    "id": "Microsoft.PowerAutomateDesktop",
+    "friendlyName": "Power Automate",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "id": "Microsoft.PowerShell.Preview",
+    "friendlyName": "PowerShell Preview",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "Version": "^7.5.0.2",
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^0.80.1",
+    "id": "Microsoft.PowerToys",
+    "friendlyName": "PowerToys (Preview)",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^19.3",
+    "id": "Microsoft.SQLServerManagementStudio",
+    "friendlyName": "Microsoft SQL Server Management Studio",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^24102.2309.2851.4917",
+    "id": "Microsoft.Teams.Free",
+    "friendlyName": "Microsoft Teams",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^1.89.0",
+    "id": "Microsoft.VisualStudioCode",
+    "friendlyName": "Microsoft Visual Studio Code",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^11.2401.0.0",
+    "id": "Microsoft.WindowsCalculator_8wekyb3d8bbwe",
+    "friendlyName": "Windows Calculator",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "id": "Microsoft.WindowsTerminal",
+    "friendlyName": "Windows Terminal",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "version": "^1.20.11271.0",
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^1.20.11215.0",
+    "id": "Microsoft.WindowsTerminal.Preview",
+    "friendlyName": "Windows Terminal Preview",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^2.0.14.0",
+    "id": "Microsoft.WSL",
+    "friendlyName": "Windows Subsystem for Linux",
+    "groups": [
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^1.24041.108.0",
+    "id": "Microsoft.YourPhone_8wekyb3d8bbwe",
+    "friendlyName": "Phone Link",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^11.2403.5.0",
+    "id": "Microsoft.ZuneMusic_8wekyb3d8bbwe",
+    "friendlyName": "Windows Media Player",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^1.0.7.0",
+    "id": "MicrosoftWindows.Speech.en-GB.1_cw5n1h2txyewy",
+    "friendlyName": "Speech Pack - English (United Kingdom)",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^1.0.16.0",
+    "id": "MicrosoftWindows.Speech.en-US.1_cw5n1h2txyewy",
+    "friendlyName": "Speech Pack - English (United States)",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^125.0.3",
+    "id": "Mozilla.Firefox",
+    "friendlyName": "Mozilla Firefox",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^3.1.2.0",
+    "id": "MSPCManager",
+    "friendlyName": "PC Manager(Beta)",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^8.6.5",
+    "id": "Notepad++.Notepad++",
+    "friendlyName": "Notepad++",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^1.71",
+    "id": "NpcapInst",
+    "friendlyName": "Npcap",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^3.27.0.120",
+    "id": "Nvidia.GeForceExperience",
+    "friendlyName": "NVIDIA GeForce Experience",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^9.21.0713",
+    "id": "Nvidia.PhysX",
+    "friendlyName": "NVIDIA PhysX System Software",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^16.0.17425.20176",
+    "id": "O365HomePremRetail - nl-nl",
+    "friendlyName": "Microsoft 365 - nl-nl",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^30.1.2",
+    "id": "OBSProject.OBSStudio",
+    "friendlyName": "OBS Studio",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^24.076.0414.0005",
+    "id": "OneDriveSetup.exe",
+    "friendlyName": "Microsoft OneDrive",
+    "groups": [
+      "ATMOSMAIN"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^22.1.0",
+    "id": "OpenJS.NodeJS",
+    "friendlyName": "Node.js",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^4.29.0.5640",
+    "id": "OpenMedia.4KVideoDownloader",
+    "friendlyName": "4K Video Downloader",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^1.1.1.0",
+    "id": "OpenMedia.4KVideoDownloaderPlus",
+    "friendlyName": "4K Video Downloader Pro",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^4.6.4",
+    "id": "qBittorrent.qBittorrent",
+    "friendlyName": "qBittorrent",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows gaming",
+      "windows desktop pc",
+      "window webserver"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^7.11.0.18",
+    "id": "RealVNC.VNCViewer",
+    "friendlyName": "RealVNC Viewer",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "id": "Rockstar Games Launcher",
+    "friendlyName": "Rockstar Games Launcher",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "version": "^1.0.85.1858"
+  },
+  {
+    "repo": "winget",
+    "id": "Rockstar Games Social Club",
+    "friendlyName": "Rockstar Games Social Club",
+    "groups": [
+      "ATMOSMAIN"
+    ],
+    "version": "^2.2.7.3"
+  },
+  {
+    "repo": "winget",
+    "version": "^1.13.7",
+    "id": "Sandboxie.Plus",
+    "friendlyName": "Sandboxie-Plus",
+    "groups": [
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^1.235.663.0",
+    "id": "Spotify.Spotify",
+    "friendlyName": "Spotify Music",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ]
+  },
+  {
+    "repo": "winget",
+    "version": "^5.0.20242.10753",
+    "id": "Telerik.Fiddler.Classic",
+    "friendlyName": "Progress Telerik Fiddler Classic",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation",
+      "windows desktop developer technology preview workstation",
+      "window webserver",
+      "windows github repo server",
+      "windows test and deployment server"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^2.10.91.91",
+    "id": "Valve.Steam",
+    "friendlyName": "Steam",
+    "groups": [
+      "windows laptop pc",
+      "windows gaming",
+      "windows desktop pc"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^3.0.20",
+    "id": "VideoLAN.VLC",
+    "friendlyName": "VLC media player",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  },
+  {
+    "repo": "winget",
+    "version": "^5.91.0.10029",
+    "id": "Winamp.Winamp",
+    "friendlyName": "Winamp",
+    "groups": [
+      "windows netbook",
+      "windows laptop pc",
+      "windows laptop development workstation",
+      "windows gaming",
+      "windows desktop pc",
+      "windows desktop workstation",
+      "windows desktop developer workstation"
+    ],
+    "subrepo": "winget"
+  }
+]
