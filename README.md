@@ -151,7 +151,7 @@ Sync-SoftwarePackages [-UpdateAllPackages] [-CopyCurrentPackagesToPackageList]
         Accept wildcard characters?  false
     -OnlyOnceADay [<SwitchParameter>]
         Specifies whether to perform the update check only once a day. If this switch is
-        specified and an update check has already been performed within the last 20 hours, the
+        specified and an update check has already been performed within the last 24 hours, the
         function will return without performing any further tasks.
         Required?                    false
         Position?                    named

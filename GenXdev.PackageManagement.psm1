@@ -1772,7 +1772,7 @@ Will add all packages that were installed on the machine, including those not in
 By default they won't have any machine roles assigned, but the MACHINENAME is used as the only role these added packages belong too.
 
 .PARAMETER OnlyOnceADay
-Specifies whether to perform the update check only once a day. If this switch is specified and an update check has already been performed within the last 20 hours, the function will return without performing any further tasks.
+Specifies whether to perform the update check only once a day. If this switch is specified and an update check has already been performed within the last 24 hours, the function will return without performing any further tasks.
 
 .EXAMPLE
 Sync-SoftwarePackages -UpdateAllPackages
@@ -1784,7 +1784,7 @@ Syncs software packages and adds or updates the installed GenXdev packages.
 
 .EXAMPLE
 Sync-SoftwarePackages -OnlyOnceADay
-Syncs software packages and performs the update check only once a day if an update check has not been performed within the last 20 hours.
+Syncs software packages and performs the update check only once a day if an update check has not been performed within the last 24 hours.
 #>
 function Sync-SoftwarePackages {
     Param(
@@ -1805,7 +1805,7 @@ function Sync-SoftwarePackages {
         # already performed update check?
         $lastDate = [System.DateTime]::new($GenXdevPackageManagementState.LastCheck)
         $timeSinceLast = [DateTime]::UtcNow - $lastDate;
-        $processed = ($timeSinceLast.Hours -lt 20);
+        $processed = ($timeSinceLast.Hours -lt 24);
         if ($OnlyOnceADay -and $processed -and (-not $UpdateAllPackages) -and (-not $CopyCurrentPackagesToPackageList)) {
 
             return;
