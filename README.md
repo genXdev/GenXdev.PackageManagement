@@ -8,7 +8,9 @@
     GenXdev.PackageManagement
 
 ### SYNOPSIS
-    A Windows PowerShell module for managing winget and chocolatey software packages using machine role groups
+    A Windows PowerShell module for managing winget and chocolatey software packages
+    using machine role groups
+
 [![GenXdev.PackageManagement](https://img.shields.io/powershellgallery/v/GenXdev.PackageManagement.svg?style=flat-square&label=GenXdev.PackageManagement)](https://www.powershellgallery.com/packages/GenXdev.PackageManagement/) [![License](https://img.shields.io/github/license/genXdev/GenXdev.PackageManagement?style=flat-square)](./LICENSE)
 
 ### FEATURES
