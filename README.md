@@ -8,7 +8,7 @@
     GenXdev.PackageManagement
 
 ### SYNOPSIS
-    A Windows PowerShell module for basic and advanced file management tasks
+    A Windows PowerShell module for managing winget and chocolatey software packages using machine role groups
 [![GenXdev.PackageManagement](https://img.shields.io/powershellgallery/v/GenXdev.PackageManagement.svg?style=flat-square&label=GenXdev.PackageManagement)](https://www.powershellgallery.com/packages/GenXdev.PackageManagement/) [![License](https://img.shields.io/github/license/genXdev/GenXdev.PackageManagement?style=flat-square)](./LICENSE)
 
 ### FEATURES
@@ -75,7 +75,7 @@ Import-GenXdevModules [<CommonParameters>]
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
-        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216). 
+        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216).
 
 <br/><hr/><hr/><br/>
 
@@ -93,8 +93,8 @@ Initialize-SearchPaths [<CommonParameters>]
 ````
 
 ### DESCRIPTION
-    This function initializes the search paths for the module by adding various paths to the 
-    $searchPaths variable. It also adds all project search-paths to the environment's PATH 
+    This function initializes the search paths for the module by adding various paths to the
+    $searchPaths variable. It also adds all project search-paths to the environment's PATH
     variable.
 
 ### PARAMETERS
@@ -102,7 +102,7 @@ Initialize-SearchPaths [<CommonParameters>]
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
-        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216). 
+        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216).
 
 <br/><hr/><hr/><br/>
 
@@ -112,56 +112,56 @@ Sync-SoftwarePackages
 ````
 
 ### SYNOPSIS
-    Synchronizes software packages by performing various tasks such as updating packages, 
+    Synchronizes software packages by performing various tasks such as updating packages,
     installing package management tools, and checking for available updates.
 
 ### SYNTAX
 ````PowerShell
-Sync-SoftwarePackages [-UpdateAllPackages] [-CopyCurrentPackagesToPackageList] 
+Sync-SoftwarePackages [-UpdateAllPackages] [-CopyCurrentPackagesToPackageList]
 [-OnlyOnceADay] [<CommonParameters>]
 ````
 
 ### DESCRIPTION
-    The Sync-SoftwarePackages function without any parameters will make sure all packages in 
+    The Sync-SoftwarePackages function without any parameters will make sure all packages in
     the GenXdev.PackageManagement package list where this machine role
     applies too, are up-to-date.
 
 ### PARAMETERS
     -UpdateAllPackages [<SwitchParameter>]
-        Specifies whether to upgrade all packages. If this switch is specified, all installed 
+        Specifies whether to upgrade all packages. If this switch is specified, all installed
         packages will be upgraded.
         Required?                    false
         Position?                    named
         Default value                False
         Accept pipeline input?       false
-        Aliases                      
+        Aliases
         Accept wildcard characters?  false
     -CopyCurrentPackagesToPackageList [<SwitchParameter>]
-        Will add all packages that were installed on the machine, including those not in the 
+        Will add all packages that were installed on the machine, including those not in the
         GenXdev.PackageManagement package list, to be added to this list.
-        By default they won't have any machine roles assigned, but the MACHINENAME is used as 
+        By default they won't have any machine roles assigned, but the MACHINENAME is used as
         the only role these added packages belong too.
         Required?                    false
         Position?                    named
         Default value                False
         Accept pipeline input?       false
-        Aliases                      
+        Aliases
         Accept wildcard characters?  false
     -OnlyOnceADay [<SwitchParameter>]
-        Specifies whether to perform the update check only once a day. If this switch is 
-        specified and an update check has already been performed within the last 20 hours, the 
+        Specifies whether to perform the update check only once a day. If this switch is
+        specified and an update check has already been performed within the last 20 hours, the
         function will return without performing any further tasks.
         Required?                    false
         Position?                    named
         Default value                False
         Accept pipeline input?       false
-        Aliases                      
+        Aliases
         Accept wildcard characters?  false
     <CommonParameters>
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
-        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216). 
+        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216).
 
 <br/><hr/><hr/><br/>
 
@@ -186,23 +186,23 @@ Open-BeyondCompare [-file1] <String> [-file2] <String> [<CommonParameters>]
         The first file to be compared
         Required?                    true
         Position?                    1
-        Default value                
+        Default value
         Accept pipeline input?       false
-        Aliases                      
+        Aliases
         Accept wildcard characters?  false
     -file2 <String>
         The second file to be compared
         Required?                    true
         Position?                    2
-        Default value                
+        Default value
         Accept pipeline input?       false
-        Aliases                      
+        Aliases
         Accept wildcard characters?  false
     <CommonParameters>
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
-        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216). 
+        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216).
 
 <br/><hr/><hr/><br/>
 
@@ -220,9 +220,9 @@ Set-SoftwarePackagesMachineRoleMembership [<CommonParameters>]
 ````
 
 ### DESCRIPTION
-    This function sets the machine role membership for software packages based on user 
-    selection. It displays a menu to select machine roles and allows the user to toggle the 
-    selection using arrow keys and space bar. The selected machine roles are then used to 
+    This function sets the machine role membership for software packages based on user
+    selection. It displays a menu to select machine roles and allows the user to toggle the
+    selection using arrow keys and space bar. The selected machine roles are then used to
     update the `SoftwarePackagesMemberGroups` array in the GenXdev Package Management state.
 
 ### PARAMETERS
@@ -230,7 +230,7 @@ Set-SoftwarePackagesMachineRoleMembership [<CommonParameters>]
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
-        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216). 
+        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216).
 
 <br/><hr/><hr/><br/>
 
@@ -248,11 +248,11 @@ Add-SoftwarePackagesMachineRoleMembership [-GroupName] <String> [<CommonParamete
 ````
 
 ### DESCRIPTION
-    This function adds the specified machine role membership to the 
+    This function adds the specified machine role membership to the
     SoftwarePackagesMemberGroups array.
-    It first removes any existing software packages from the specified machine role membership 
+    It first removes any existing software packages from the specified machine role membership
     using the
-    Remove-SoftwarePackagesMachineRoleMembership function. Then, it adds the specified machine 
+    Remove-SoftwarePackagesMachineRoleMembership function. Then, it adds the specified machine
     role membership
     to the SoftwarePackagesMemberGroups array and saves the GenXdev Package Management state.
 
@@ -272,27 +272,27 @@ Add-SoftwarePackagesMachineRoleMembership [-GroupName] <String> [<CommonParamete
         - "windows test and deployment server"
         Required?                    true
         Position?                    1
-        Default value                
+        Default value
         Accept pipeline input?       false
-        Aliases                      
+        Aliases
         Accept wildcard characters?  false
     <CommonParameters>
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
-        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216). 
+        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ### NOTES
 ````PowerShell
-    - This function requires the Remove-SoftwarePackagesMachineRoleMembership function to 
+    - This function requires the Remove-SoftwarePackagesMachineRoleMembership function to
     be defined.
-    - The GenXdevPackageManagementState variable must be defined and accessible in the 
+    - The GenXdevPackageManagementState variable must be defined and accessible in the
     current scope.
-    - The Save-GenXdevPackagManagementState function is used to save the GenXdev Package 
+    - The Save-GenXdevPackagManagementState function is used to save the GenXdev Package
     Management state.
 -------------------------- EXAMPLE 1 --------------------------
 PS C:\> Add-SoftwarePackagesMachineRoleMembership -GroupName "windows desktop pc"
-Adds the "windows desktop pc" machine role membership to the SoftwarePackagesMemberGroups 
+Adds the "windows desktop pc" machine role membership to the SoftwarePackagesMemberGroups
 array.
 ````
 
@@ -304,19 +304,19 @@ Remove-SoftwarePackagesMachineRoleMembership
 ````
 
 ### SYNOPSIS
-    Removes machine role membership from the specified group in the GenXdev Package Management 
+    Removes machine role membership from the specified group in the GenXdev Package Management
     state.
 
 ### SYNTAX
 ````PowerShell
-Remove-SoftwarePackagesMachineRoleMembership [-GroupName] <String> [-ExcludeGroup] 
+Remove-SoftwarePackagesMachineRoleMembership [-GroupName] <String> [-ExcludeGroup]
 [<CommonParameters>]
 ````
 
 ### DESCRIPTION
-    The Remove-SoftwarePackagesMachineRoleMembership function removes the specified machine 
+    The Remove-SoftwarePackagesMachineRoleMembership function removes the specified machine
     role membership from the SoftwarePackagesMemberGroups
-    array in the GenXdev Package Management state. It can also exclude the specified group 
+    array in the GenXdev Package Management state. It can also exclude the specified group
     from the array.
 
 ### PARAMETERS
@@ -335,40 +335,40 @@ Remove-SoftwarePackagesMachineRoleMembership [-GroupName] <String> [-ExcludeGrou
         - "windows test and deployment server"
         Required?                    true
         Position?                    1
-        Default value                
+        Default value
         Accept pipeline input?       false
-        Aliases                      
+        Aliases
         Accept wildcard characters?  false
     -ExcludeGroup [<SwitchParameter>]
-        Indicates whether to exclude the specified group from the SoftwarePackagesMemberGroups 
+        Indicates whether to exclude the specified group from the SoftwarePackagesMemberGroups
         array. If this switch is used,
-        the specified group will be added to the array with a "!" prefix, which will prevent 
+        the specified group will be added to the array with a "!" prefix, which will prevent
         any package included in this
         machine role, to be installed.
         Required?                    false
         Position?                    named
         Default value                False
         Accept pipeline input?       false
-        Aliases                      
+        Aliases
         Accept wildcard characters?  false
     <CommonParameters>
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
-        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216). 
+        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ### NOTES
 ````PowerShell
     This function requires the GenXdev Package Management module to be imported.
 -------------------------- EXAMPLE 1 --------------------------
 PS C:\> Remove-SoftwarePackagesMachineRoleMembership -GroupName "windows desktop pc"
-This example removes the "windows desktop pc" machine role membership from the 
+This example removes the "windows desktop pc" machine role membership from the
 SoftwarePackagesMemberGroups
 array in the GenXdev Package Management state.
 -------------------------- EXAMPLE 2 --------------------------
-PS C:\> Remove-SoftwarePackagesMachineRoleMembership -GroupName "windows desktop pc" 
+PS C:\> Remove-SoftwarePackagesMachineRoleMembership -GroupName "windows desktop pc"
 -ExcludeGroup
-This example removes the "windows desktop pc" machine role membership from the 
+This example removes the "windows desktop pc" machine role membership from the
 SoftwarePackagesMemberGroups array
 in the GenXdev Package Management state and excludes it from the array.
 ````
@@ -381,7 +381,7 @@ Backup-SoftwarePackageList
 ````
 
 ### SYNOPSIS
-    Backs up the software package list by removing unnecessary properties from each package 
+    Backs up the software package list by removing unnecessary properties from each package
     and saving it to a specified path.
 
 ### SYNTAX
@@ -390,9 +390,9 @@ Backup-SoftwarePackageList [<CommonParameters>]
 ````
 
 ### DESCRIPTION
-    The Backup-SoftwarePackageList function removes the "InstalledVersion" and "Status" 
+    The Backup-SoftwarePackageList function removes the "InstalledVersion" and "Status"
     properties from each package in the
-    GenXdevPackages collection. It then saves the modified collection to the specified path as 
+    GenXdevPackages collection. It then saves the modified collection to the specified path as
     a JSON file.
 
 ### PARAMETERS
@@ -400,15 +400,15 @@ Backup-SoftwarePackageList [<CommonParameters>]
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
-        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216). 
+        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ### NOTES
 ````PowerShell
-    This function requires the Initialize-GenXdevPackages and Save-GenXdevPackages 
+    This function requires the Initialize-GenXdevPackages and Save-GenXdevPackages
     functions to be defined and available in the current session.
 -------------------------- EXAMPLE 1 --------------------------
 PS C:\> Backup-SoftwarePackageList
-# Removes unnecessary properties from each package in the GenXdevPackages collection and 
+# Removes unnecessary properties from each package in the GenXdevPackages collection and
 saves it to the default path.
 ````
 
@@ -420,7 +420,7 @@ Restore-SoftwarePackageList
 ````
 
 ### SYNOPSIS
-    Restores the software package list by removing unnecessary properties from each 
+    Restores the software package list by removing unnecessary properties from each
     GenXdevPackage and saving the modified GenXdevPackages.
 
 ### SYNTAX
@@ -429,9 +429,9 @@ Restore-SoftwarePackageList [<CommonParameters>]
 ````
 
 ### DESCRIPTION
-    The Restore-SoftwarePackageList function is used to restore the software package list by 
-    removing unnecessary properties from each GenXdevPackage and saving the modified 
-    GenXdevPackages. It initializes the GenXdevPackages and specifies the path for the default 
+    The Restore-SoftwarePackageList function is used to restore the software package list by
+    removing unnecessary properties from each GenXdevPackage and saving the modified
+    GenXdevPackages. It initializes the GenXdevPackages and specifies the path for the default
     package list.
 
 ### PARAMETERS
@@ -439,7 +439,7 @@ Restore-SoftwarePackageList [<CommonParameters>]
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
-        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216). 
+        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216).
 
 <br/><hr/><hr/><br/>
 
@@ -465,6 +465,6 @@ Get-SoftwarePackagesMachineRoleMembershipRoles [<CommonParameters>]
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
         OutBuffer, PipelineVariable, and OutVariable. For more information, see
-        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216). 
+        about_CommonParameters     (https://go.microsoft.com/fwlink/?LinkID=113216).
 
 <br/><hr/><hr/><br/>
